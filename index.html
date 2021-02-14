@@ -3,6 +3,9 @@
 <head>
     <title>my Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -38,9 +41,28 @@
     <section id="games">
         <h1>Games</h1>
         <div class="line"></div>
-        <a href="https://studio.code.org/projects/artist/2lYIMD1zD7pQFxx6ZVL9OkbO3atIhwePbb2gb-1uBck" target="_blank"><img src="https://studio.code.org/v3/files/2lYIMD1zD7pQFxx6ZVL9OkbO3atIhwePbb2gb-1uBck/.metadata/thumbnail.png"></a>
+        <div id="mycarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="https://studio.code.org/projects/starwarsblocks/cmjqW84cS87UO8GlyfSv6uUagrYHyyS8rnPHDAKdkJw" target="_blank"><img src="https://studio.code.org/v3/files/NgsQgA6KtVSVtmQzBexPmcH9LAOjVsB72a7d2vlg7R0/.metadata/thumbnail.png"></a>
+                        <div class="carousel-content">
+                            <p>Starwars</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center> <a href="https://studio.code.org/projects/artist/2lYIMD1zD7pQFxx6ZVL9OkbO3atIhwePbb2gb-1uBck" target="_blank"><img src="https://studio.code.org/v3/files/2lYIMD1zD7pQFxx6ZVL9OkbO3atIhwePbb2gb-1uBck/.metadata/thumbnail.png"></a>
+                        <div class="carousel-content">
+                            <p>Pixel drawing</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <!-- Left and right controls --> <a class="left carousel-control" href="#mycarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#mycarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
 
-        <a href="https://studio.code.org/projects/starwarsblocks/cmjqW84cS87UO8GlyfSv6uUagrYHyyS8rnPHDAKdkJw" target="_blank"><img src="https://studio.code.org/v3/files/NgsQgA6KtVSVtmQzBexPmcH9LAOjVsB72a7d2vlg7R0/.metadata/thumbnail.png"></a>
+        </div>
+
     </section>
     <section id="chatbot">
         <h1>Chatbot</h1>
@@ -72,6 +94,7 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.2922749707527!2d-71.24701138523302!3d42.65516137916817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3a653c1ca49bb%3A0x38ac9f737c20eea9!2s460%20River%20Rd%2C%20Andover%2C%20MA%2001810!5e0!3m2!1sen!2sus!4v1612711295922!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
         </iframe>
         <div id="contact_1">
-        <a href="mailto:srivastavaprattap411@gmail.com?subject=hello">
-            <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>srivastavapratap411@gmail.com</h3></a></div>
+            <a href="mailto:srivastavaprattap411@gmail.com?subject=hello">
+                <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>srivastavapratap411@gmail.com</h3></a>
+        </div>
     </section>
